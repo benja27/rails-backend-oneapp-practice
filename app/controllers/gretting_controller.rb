@@ -1,9 +1,10 @@
 class GrettingController < ApplicationController
-  
-    def random_greeting
-      random_message = Gretting.random
-      render json: { message: random_message }
-    end
-  
-  
+  def random_gretting
+    random_message = Gretting.order('RANDOM()').limit(1).first
+    render json: { message: random_message.gretting }
+  end
+
+  def self.random
+    Gretting.pluck(:message).sample
+  end
 end

@@ -13,7 +13,8 @@ module RailsBackendOneappPractice
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'dominio_de_tu_frontend' # Reemplaza esto con el dominio de tu frontend
+        origins 'http://localhost:5173'
+        resource '/api/*', headers: :any, methods: [:get]
         resource '*', headers: :any, methods: [:get, :post, :put, :patch, :delete, :options]
       end
     end
