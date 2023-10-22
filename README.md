@@ -33,9 +33,13 @@
 
 
 
-# 📖 Awsome Books With React <a name="about-project"></a>
+LINK OF THE FRONT END PART:
+https://github.com/benja27/react-front-end-oneapp-practice
 
-**Awsome Books With React** is a... Describe your project in 1 or 2 sentences.
+
+# 📖 back end full stack app in 2 separate apps <a name="about-project"></a>
+
+**back end full stack app** is a practice where I build a full stack app by using react and rails in 2 separte apps
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,7 +48,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">rails</a></li>
   </ul>
 </details>
 
@@ -54,9 +58,9 @@
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **[Use Create React APP]**
-- **[Use React Routes]**
-- **[Use React Redux]**
+- **[Use API]**
+- **[Use use models]**
+- **[Use json]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +85,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need :
 Install this:
-Node js
+ruby
 Visual Studio Code
 Git
 
@@ -91,6 +95,8 @@ Git
 
 Clone this repository to your desired folder:
 and a open a new terminal on your visual studio code
+rails db:create
+rails db:migrate
 
 
   
@@ -98,7 +104,7 @@ and a open a new terminal on your visual studio code
 ### Install
 
 Install this project with:
-npm install
+bundle install
 
 
 
@@ -107,7 +113,7 @@ npm install
 ### Usage
 
 To run the project, execute the following command:
-npm run start
+rails server
 
 
 
@@ -118,7 +124,7 @@ npm run start
 ### Run tests
 
 To run tests, run the following command:
-npm run test
+rubocop
 
 
 
@@ -157,8 +163,8 @@ I recomend Render since is easy to use
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Improve user interface]**
-- [ ] **[Improve Js code]**
-- [ ] **[Implement conexion to a database]**
+- [ ] **[Improve ruby code]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
